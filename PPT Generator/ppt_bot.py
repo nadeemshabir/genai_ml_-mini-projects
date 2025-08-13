@@ -8,7 +8,7 @@ from duckduckgo_search import DDGS
 import google.generativeai as genai
 
 # Initialize the client with your API key
-genai.configure(api_key="AIzaSyCncqo83t0dXHQMztiBFrJS2zjrCY-LrBM")
+genai.configure(api_key="Your api key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 import json
 
